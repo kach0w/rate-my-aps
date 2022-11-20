@@ -13,7 +13,7 @@ export default function Home() {
         <title>kach0w</title>
         <meta name="description" content="kach0w's website"></meta>
         <link rel="icon" href="/favicon.png"/>  
-        <Script src="https://kit.fontawesome.com/a191de05ec.js" crossorigin="anonymous" /> 
+        <Script src="https://kit.fontawesome.com/a191de05ec.js" crossorigin="anonymous" />
       </Head>
       {/* Navbar */}
       <Navbar />

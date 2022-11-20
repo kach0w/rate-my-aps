@@ -1,4 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faChevronDown,
+
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -7,7 +13,10 @@ const Navbar = () => {
             <a href="https://kach0w.com">Home</a>
             <a href="https://kach0w.com/about">About</a>
             <div className=' '>
-                Projects <i class="fa fa-caret-down"></i>
+                Projects <FontAwesomeIcon
+                  icon={faChevronDown}
+                  style={{ fontSize: 19, color: "black" }}
+                />
             </div>
             <a href="https://kach0w.com/blog">Blog</a>
 

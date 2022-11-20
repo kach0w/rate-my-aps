@@ -1,6 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import rusteze from "../assets/rusteze.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+
 
 const Main = () => {
   return (
@@ -19,12 +24,13 @@ const Main = () => {
       <div className='flex my-[5vh] justify-center text-center'>
         <a href="https://github.com/kach0w">
           <div className='bg-[#3b82f6] hover:bg-[#0a5adb] w-[9vw] py-5 mr-2 text-[1.5rem] text-[#ffffff] rounded-[8px]'>
-            <div className='font-serif font-bold'><i class="fab fa-github"></i> GitHub</div>
+            <div className='font-serif font-bold'>GitHub 
+            </div>
           </div>
         </a>
         <a href="mailto:kachow@duck.com">
           <div className='bg-[#3b82f6] hover:bg-[#0a5adb] w-[9vw] py-5 ml-2 text-[1.5rem] text-[#ffffff] rounded-[8px]'>
-            <div className='font-serif font-bold'><i class="fa-solid fa-envelope"></i> Email</div>
+            <div className='font-serif font-bold'>Email</div>
           </div>
         </a>
       </div>
