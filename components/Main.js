@@ -9,7 +9,7 @@ import {
 
 const Main = () => {
   return (
-    <div className='justify-center pt-[1vh] h-s[creen] w-screen md:pt-[1vh]  h-[screen] md:h-[screen]   overflow-hidden'>
+    <div className='z-0 justify-center mt-1vh pb-5 w-screen md:pt-[1vh]  h-[screen] md:h-[screen]   overflow-hidden'>
       <div className='h-6/12 px-50 font-bold justify-center text-center'>
         <h1 className='font-serif font-bold text-[7em] text-[#15171a] leading-none'>kach0w</h1>
       </div>

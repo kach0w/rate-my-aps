@@ -3,8 +3,12 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Script from 'next/script';
 
-import Main from '../components/Main';
 import Navbar from '../components/Navbar';
+import Main from '../components/Main';
+import About from '../components/About';
+import Projects from '../components/Projects';
+import Blog from '../components/Blog';
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -20,9 +24,14 @@ export default function Home() {
       {/* Main */}
       <Main />
       {/* About */}
+      <About />
       {/* Projects */}
+      <Projects />
       {/* Blog */}
+      <Blog />
       {/* Footer */}
+      <Footer />
     </div>
+    
   )
 }
