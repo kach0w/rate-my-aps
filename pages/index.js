@@ -8,7 +8,7 @@ import Main from '../components/Main';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Blog from '../components/Blog';
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
