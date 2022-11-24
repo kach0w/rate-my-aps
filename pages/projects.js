@@ -12,6 +12,7 @@ export default function Home() {
         <div className='text-center'>
             <Head>
                 <title>Projects - kach0w</title>
+                <link rel="icon" href="/favicon.png"/> 
             </Head> 
             <a href="https://kach0w.com">
                 <div className='text-[3rem] hover:text-[#3b82f6] mt-[10vh] '>

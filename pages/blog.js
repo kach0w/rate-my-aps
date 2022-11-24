@@ -1,11 +1,17 @@
 import React from 'react'
+import Head from 'next/head'
+
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
-
 
 export default function Home() {
   return (
     <div className='text-center'>
+      <Head>
+        <title>Blog - kach0w</title>
+        <meta name="description" content="kach0w's blog"></meta>
+        <link rel="icon" href="/favicon.png"/> 
+      </Head>
       <Navbar />
       <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-5 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
             <h2 className='font-serif font-bold'>Statistics</h2>
