@@ -17,7 +17,7 @@ const Main = () => {
         <Image className='w-[30vw]' src={rusteze} alt="img"/>
       </div>
       <div className='flex text-center justify-center'>
-        <div className='text-[1.8rem] font-bold font-serif text-[#000000]'>
+        <div className='text-[1.5rem] font-normal font-serif text-[#000000]'>
             Trying to Learn New Things.
         </div>
       </div>

@@ -25,11 +25,11 @@ export default function Home() {
                 <div className='text-[4rem] font-bold'>
                     About
                 </div>
-                <h2 className='font-serif font-bold text-[1.5rem] leading-10'>I'm a high schooler living in Fremont, California</h2>
+                <h2 className='font-serif font-normal pb-5 text-[1.5rem] leading-10'>I'm a high schooler living in Fremont, California</h2>
         <div className='flex w-[50vw] mx-auto text-center'>
             <Image src={fremont} alt="fremont" />
         </div>
-        <p className='font-serif text-[2rem] font-bold'>Lake Elizabeth</p>
+        <p className='font-serif text-[1.5rem] font-normal'>Lake Elizabeth</p>
             </div>   
         </div>
   )
