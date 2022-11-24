@@ -16,7 +16,7 @@ export default function Home() {
                 <title>About - kach0w</title>
             </Head> 
             <a href="https://kach0w.com">
-                <div className='text-[3rem] hover:text-[#3b82f6] mt-[10vh] '>
+                <div className='text-[3rem] hover:text-[#3b82f6] mt-[5vh] '>
                     <FontAwesomeIcon 
                     icon={faArrowLeft} /> 
                 </div>
