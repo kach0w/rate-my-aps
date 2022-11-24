@@ -27,7 +27,7 @@ export default function Home() {
                     <li><a className = "hover:text-[#3b82f6]" href="/Calculator/calculator">Apple Calculator</a></li>
                     <li><a className = "hover:text-[#3b82f6]" href="https://scores.kachow.me">NBA Live Scores</a></li>
                     <li><a className = "hover:text-[#3b82f6]" href="https://stats.kachow.me">NBA Player Stats</a></li>
-                    <li className='text-[1rem] mt-[5vh]'><p>Note: these may not be up to date, check my <a href="https://github.com/kach0w">GitHub</a> for the most up to date</p></li>
+                    <li className='text-[1rem] mt-[5vh]'><p>Note: these may not be up to date, check my <a className='text-[#3b82f6]' href="https://github.com/kach0w">GitHub</a> for the most up to date</p></li>
                 </ul>
             </div>  
             
