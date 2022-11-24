@@ -14,7 +14,7 @@ const Blog = () => {
             </div>
             <a className='bg-[#3b82f6] rounded-lg text-white mt-[2vh] hover:bg-[#0a5adb] p-3' href="/blog/statistics">Read more</a>
         </div>
-        <div className='text-[2rem] mt-4 mb-4 hover:text-slate-500'>
+        <div className='text-[2rem] mt-4 mb-[25vh] hover:text-slate-500'>
             <a href="/blog"><u>More Blog Posts</u></a>
         </div>
     </div>
