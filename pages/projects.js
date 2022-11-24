@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Head from 'next/head';
 
 import {
   faArrowLeft,
@@ -7,8 +8,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
-    return (
+    return ( 
         <div className='text-center'>
+            <Head>
+                <title>Projects - kach0w</title>
+            </Head> 
             <a href="https://kach0w.com">
                 <div className='text-[3rem] hover:text-[#3b82f6] mt-[10vh] '>
                     <FontAwesomeIcon 
@@ -29,11 +33,7 @@ export default function Home() {
                     <li><a className = "hover:text-[#3b82f6]" href="https://stats.kachow.me">NBA Player Stats</a></li>
                     <li className='text-[1rem] mt-[5vh]'><p>Note: these may not be up to date, check my <a className='text-[#3b82f6]' href="https://github.com/kach0w">GitHub</a> for the most up to date</p></li>
                 </ul>
-            </div>  
-            
+            </div>   
         </div>
-
-
-
   )
 }
