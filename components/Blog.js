@@ -6,7 +6,7 @@ const Blog = () => {
         <div className='pt-5'>
             <h1 id="about" className='font-serif font-bold text-[7em] text-[#15171a]'>Blog</h1>
         </div>
-        <div className='mx-auto max-w-[50vw] rounded-lg p-5 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
+        <div className='mx-auto max-w-[50vw] rounded-lg p-10 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
             <h2 className='font-serif font-bold'>Statistics</h2>
             <h2 className='font-serif font-bold text-[1rem]'>Sep 4, 2022</h2>
             <div className='pb-5 pt-5'>

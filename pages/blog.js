@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png"/> 
       </Head>
       <Navbar />
-      <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-5 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
+      <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-10 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
             <h2 className='font-serif font-bold'>Statistics</h2>
             <h2 className='font-serif font-bold text-[1rem]'>Sep 4, 2022</h2>
             <div className='pb-5 pt-5'>
@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <a className='bg-[#3b82f6] rounded-lg text-white mt-[2vh] hover:bg-[#0a5adb] p-3' href="/blog/statistics">Read more</a>
       </div>  
-      <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-5 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
+      <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-10 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
             <h2 className='font-serif font-bold'>Pokédex</h2>
             <h2 className='font-serif font-bold text-[1rem]'>June 21, 2022</h2>
             <div className='pb-5 pt-5'>
@@ -30,7 +30,7 @@ export default function Home() {
               and data about each pokémon along with pictures which many other ones lack...             </div>
             <a className='bg-[#3b82f6] rounded-lg text-white mt-[2vh] hover:bg-[#0a5adb] p-3' href="/blog/pokedex">Read more</a>
       </div>  
-      <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-5 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
+      <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-10 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
             <h2 className='font-serif font-bold'>Javascript</h2>
             <h2 className='font-serif font-bold text-[1rem]'>April 16, 2022</h2>
             <div className='pb-5 pt-5'>
