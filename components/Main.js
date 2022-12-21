@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div className='z-0 justify-center mt-1vh pb-5 w-screen md:pt-[1vh]  h-[screen] md:h-[screen]  overflow-hidden'>
       <div className='h-6/12 px-50 font-bold justify-center text-center'>
-        <h1 className='font-serif font-bold text-[8em] text-white leading-none'>kach0w</h1>
+        <h1 className='font-serif font-bold text-[7em] text-white leading-none'>kach0w</h1>
       </div>
       <div className='flex my-[vh] justify-center text-center'>
         <Image className='w-[35vw]' src={rusteze} alt="img"/>
