@@ -6,13 +6,15 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className='text-center'>
+    <div className='text-center bg-[#141414]'>
       <Head>
         <title>Blog - kach0w</title>
         <meta name="description" content="kach0w's blog"></meta>
         <link rel="icon" href="/favicon.png"/> 
       </Head>
-      <Navbar />
+      <div className='text-black mb-4'>
+        <Navbar />
+      </div>
       <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-10 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
             <h2 className='font-serif font-bold'>Statistics</h2>
             <h2 className='font-serif font-bold text-[1rem]'>Sep 4, 2022</h2>
