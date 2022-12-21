@@ -12,7 +12,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-[#141414] '>
       <Head>
         <title>kach0w</title>
         <meta name="description" content="kach0w's website"></meta>
@@ -24,11 +24,17 @@ export default function Home() {
       {/* Main */}
       <Main />
       {/* About */}
-      <About />
+      <div id="about">
+        <About />
+      </div>
       {/* Projects */}
+      <div id="projects">
       <Projects />
+      </div>
       {/* Blog */}
+      <div id="blog">
       <Blog />
+      </div>
       {/* Footer */}
       <Footer />
     </div>
