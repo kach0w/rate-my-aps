@@ -6,7 +6,7 @@ import Footer from '../../components/Footer'
 
 export default function Home() {
     return (
-        <div className='text-center'>
+        <div className='text-center bg-[#141414]'>
             <Head>
                 <title>Pokédex - kach0w</title>
                 <meta name="description" content="kach0w's blog"></meta>

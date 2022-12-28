@@ -9,7 +9,7 @@ import javascript from '../../assets/JavascriptSS.png';
 
 export default function Home() {
     return (
-        <div className='text-center'>
+        <div className='text-center bg-[#141414]'>
             <Head>
                 <title>Javascript - kach0w</title>
                 <meta name="description" content="kach0w's blog"></meta>
@@ -17,7 +17,7 @@ export default function Home() {
             </Head>
             <Navbar />
             <div className='mx-auto mt-[5vh] mb-[10vh] max-w-[50vw] rounded-lg p-5 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
-                    <h2 className='font-serif font-bold'>Javascript</h2>
+                    <h2 className='font-serif text-[3rem] font-bold'>Javascript</h2>
                     <h2 className='font-serif font-bold text-[1rem]'>April 16, 2022</h2>
                     <div className='pb-5 pt-5'>
                     Recently, I have been getting interested in the programming language, javascript. In fact, it is the reason that I am currently making this website. 

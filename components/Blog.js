@@ -7,7 +7,7 @@ const Blog = () => {
             <h1 id="about" className='font-serif font-bold text-[7em] text-white'>Blog</h1>
         </div>
         <div className='mx-auto max-w-[50vw] rounded-lg p-10 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
-            <h2 className='font-serif font-bold'>Statistics</h2>
+            <h2 className='font-serif text-[3rem] font-bold'>Statistics</h2>
             <h2 className='font-serif font-bold text-[1rem]'>Sep 4, 2022</h2>
             <div className='pb-5 pt-5'>
                 Sorry, I haven't posted here in a while. I was still working on more Github projects over the summer but I forgot to update what I've done here. Anyways, school started and in my stats class because we were only going to start using calculators next week I wanted to make something to graph and display data... 
