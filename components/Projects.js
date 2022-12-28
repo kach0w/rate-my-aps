@@ -48,13 +48,13 @@ const Projects = () => {
                 </div>
             </a>
             {/* Project 5 */}      
-            <a href="https://scores.kachow.me">               
+            <a href="https://dalle-api.vercel.app/">               
                 <div className='bg-slate-800 rounded-lg px-6 py-8 w-[20vw] h-[20vh] hover:bg-slate-900'>
-                    <h2 class="text-white text-[1.5rem] font-black">NBA Live Scores</h2>
+                    <h2 class="text-white text-[1.5rem] font-black">DALL·E API</h2>
                     <p class="text-slate-500 mt-2 text-sm">
-                        The first NBA related project I made from a tutorial                
+                        Made an app using OpenAI's DALL·E API                 
                     </p>
-                    <p class="text-slate-500 font-bold mt-2 text-sm">React · JS · HTML</p>                    
+                    <p class="text-slate-500 font-bold mt-2 text-sm">Next JS</p>                    
                 </div>
             </a>
             {/* Project 6 */}
