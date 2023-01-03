@@ -18,12 +18,13 @@ export default function Home() {
       </Head>
       {/* Navbar  color should be bg-[#141414] */}
       {/* <Navbar /> */}
-      <div className='w-[25vw] h-[18vh] rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto mt-[5vh] mb-[3vh]'>
-          <div className='w-[8vw] float-left'>
+      <h2 className='font-bold text-3xl mt-[3vh] mb-[3vh]'>kach0w</h2>
+      <div className='w-[25vw] h-[18vh] rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto mb-[3vh]'>
+          <div className='w-[9vw] mt-[2vh] float-left'>
             <Image className='w-[8vw]' src={rusteze} alt="img"/>
-            <div className='font-semibold text-lg'>
-                kach0w
-            </div>
+            {/* <div className='font-bold text-[12px]'>
+                Trying to Learn New Things.
+            </div> */}
             
           </div>
           <div className='w-[15vw] float-right mt-[1vw] mr-[1vw] text-center'>
