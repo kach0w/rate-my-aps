@@ -6,42 +6,50 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className='text-center bg-[#141414]'>
+    <div className='w-[100vw] text-[#222] h-[100vh] bg-[#f3f3f3] text-center'>
       <Head>
         <title>Blog - kach0w</title>
         <meta name="description" content="kach0w's blog"></meta>
         <link rel="icon" href="/favicon.png"/> 
       </Head>
-      <div className='text-black mb-4'>
-        <Navbar />
+      <h2 className='font-extrabold  text-3xl mt-[3vh] mb-[1vh]'>Blog</h2>
+      <div className='mb-[2vh]'>
+        An infrequent update on a variety of things, from web development to new and old technologies.
       </div>
-      <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-10 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
-            <h2 className='font-serif text-[3rem] font-bold'>Statistics</h2>
-            <h2 className='font-serif font-bold text-[1rem]'>Sep 4, 2022</h2>
-            <div className='pb-5 pt-5'>
-                Sorry, I haven't posted here in a while. I was still working on more Github projects over the summer but I forgot to update what I've done here. Anyways, school started and in my stats class because we were only going to start using calculators next week I wanted to make something to graph and display data... 
-            </div>
-            <a className='bg-[#3b82f6] rounded-lg text-white mt-[2vh] hover:bg-[#0a5adb] p-3' href="/blog/statistics">Read more</a>
-      </div>  
-      <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-10 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
-            <h2 className='font-serif text-[3rem] font-bold'>Pokédex</h2>
-            <h2 className='font-serif font-bold text-[1rem]'>June 21, 2022</h2>
-            <div className='pb-5 pt-5'>
-            As I have been gaining experience with calling APIs in React apps, I wanted to make one of my first ideas when it came to apis, a Pokédex. 
-              I looked and found many different APIs on sites like RapidAPI but eventually found one called PokéAPI. It has very extensive documentation
-              and data about each pokémon along with pictures which many other ones lack...             </div>
-            <a className='bg-[#3b82f6] rounded-lg text-white mt-[2vh] hover:bg-[#0a5adb] p-3' href="/blog/pokedex">Read more</a>
-      </div>  
-      <div className='mx-auto mb-[10vh] max-w-[50vw] rounded-lg p-10 bg-white drop-shadow-xl  font-serif font-normal text-[2rem]'>
-            <h2 className='font-serif text-[3rem] font-bold'>Javascript</h2>
-            <h2 className='font-serif font-bold text-[1rem]'>April 16, 2022</h2>
-            <div className='pb-5 pt-5'>
-            Recently, I have been getting interested in the programming language, javascript. In fact, it is the reason that I am currently making this website. 
-              I went down this rabbithole because of my interest in making a Discord bot. The bot's purpose was to have fun with some friends by using the bot to 
-              secretly dm non-adminstrators in my server from a secret text channel. Later, I was interested in trolling some friends with a javascript program...    </div>
-            <a className='bg-[#3b82f6] rounded-lg text-white mt-[2vh] hover:bg-[#0a5adb] p-3' href="/blog/javascript">Read more</a>
-      </div>  
-      <Footer />
+      <div className='mx-auto w-[70rem] grid grid-cols-3 mt-[5rem]'>
+        <a href="/blog/openai">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>OpenAI</p>
+            <p className='text-slate-600'>Some words on the technology behind OpenAI's Dalle-2 and ChatGPT and some of the controversy behind it.</p>
+            <p className=' mt-2 text-sm text-slate-400'>January 22, 2023</p>
+          </div>  
+        </a>
+        <a href="/blog/statistics">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>Statistics with ChartJS</p>
+            <p className='text-slate-600'>Implementing things I learned in my Statistics class with the Javascript graphing tool ChartJS.</p>
+            <p className=' mt-2 text-sm text-slate-400'>September 4, 2022</p>
+          </div>  
+        </a>
+        <a href="/blog/pokedex">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>Pokédex</p>
+            <p className='text-slate-600'>Using a Pokemon API to create a pokedex (a wide grid of all pokemon) along with a search function.</p>
+            <p className=' mt-2 text-sm text-slate-400'>June 21, 2022</p>
+          </div>  
+        </a>
+        <a href="/blog/javascript">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>Javascript</p>
+            <p className='text-slate-600'>My first experience with Javascript, starting with making a Discord bot for fun with friends.</p>
+            <p className=' mt-2 text-sm text-slate-400'>April 16th, 2022</p>
+          </div> 
+        </a>
+      </div>
+      
+      <div className='mt-[35rem]'>
+        <Footer />
+      </div>
     </div>
   )
 }

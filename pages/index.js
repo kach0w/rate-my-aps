@@ -55,7 +55,6 @@ export default function Home() {
         <p className='font-bold text-slate-900'>Statistics with ChartJS</p>
         <p className='text-slate-600'>Implementing things I learned in my Statistics class with the Javascript graphing tool ChartJS.</p>
         <p className=' mt-2 text-sm text-slate-400'>September 4, 2022</p>
-
       </div>
       <Footer />
       

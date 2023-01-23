@@ -32,6 +32,6 @@ export default function Home() {
                     <Image src={javascript} />
             </div>  
             <Footer />
-    </div>
+        </div>
     )
 }
