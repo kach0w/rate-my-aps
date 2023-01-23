@@ -16,20 +16,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.png"/>  
         <Script src="https://kit.fontawesome.com/a191de05ec.js" crossorigin="anonymous" />
       </Head>
-      {/* Navbar  color should be bg-[#141414] */}
-      {/* <Navbar /> */}
       <h2 className='font-extrabold  text-3xl mt-[3vh] mb-[1vh]'>kach0w</h2>
       <div className='mb-[2vh]'>
         Trying to Learn New Things.
       </div>
-      <div className='w-[30rem] md:flex align-middle rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto mb-[3vh]'>
-          <div className='align-middle float-left'>
+      <div className='w-[30rem] h-[9rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] m-auto mb-[2rem]'>
+          <div className='w-[11rem] align-middle m-auto float-left'>
             <Image className='w-[12rem]' src={rusteze} alt="img"/>
           </div>
-          <div className='w-[16rem] mt-[1rem] align-middle float-right text-center'>
+          <div className='w-[16rem] mt-[1.4rem] mr-[2rem] float-right text-center'>
             Hello, welcome to my website.
             <br></br>
-            Check out some of my <a className='text-[#3b82f6] hover:underline' href="/projects">projects</a> and also view the <a className='text-[#3b82f6] hover:underline' href="/blog">blog</a> which I try (and mostly fail) to frequently update . 
+            Check out some of my <a className='text-[#3b82f6] hover:underline' href="/projects">projects</a> and also view the <a className='text-[#3b82f6] hover:underline' href="/blog">blog</a> which I try (and mostly fail) to frequently update. 
           </div>
       </div>
       <h2 className='font-bold text-2xl underline mb-1'>About Me</h2>
