@@ -50,12 +50,14 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      <h2 className='font-bold text-2xl underline'>Latest Blog Post</h2>
-      <div className='w-[30rem] rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
-        <p className='font-bold text-slate-900'>Statistics with ChartJS</p>
-        <p className='text-slate-600'>Implementing things I learned in my Statistics class with the Javascript graphing tool ChartJS.</p>
-        <p className=' mt-2 text-sm text-slate-400'>September 4, 2022</p>
-      </div>
+      <h2 className='font-bold text-2xl underline mb-1'>Latest Blog Post</h2>
+      <a href="/blog/openai">
+          <div className='w-[30rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>OpenAI</p>
+            <p className='text-slate-600'>Some words on the technology behind OpenAI's Dalle-2 and ChatGPT and some of the controversy behind it.</p>
+            <p className=' mt-2 text-sm text-slate-400'>January 22, 2023</p>
+          </div>  
+        </a>
       <Footer />
       
     </div>
