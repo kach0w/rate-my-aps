@@ -12,6 +12,11 @@ export default function Home() {
         <meta name="description" content="kach0w's blog"></meta>
         <link rel="icon" href="/favicon.png"/> 
       </Head>
+      <div className='mx-auto mt-[2rem] w-[60rem]'>
+        <a className='float-left ml-[] text-[#3b82f6] hover:underline' href="https://kach0w.com">Back</a>
+        <br></br>
+      </div>
+
       <h2 className='font-extrabold  text-3xl mt-[3vh] mb-[1vh]'>Blog</h2>
       <div className='mb-[2vh]'>
         An infrequent update on a variety of things, from web development to new and old technologies.
