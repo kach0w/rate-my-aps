@@ -22,6 +22,13 @@ export default function Home() {
         An infrequent update on a variety of things, from web development to new and old technologies.
       </div>
       <div className='mx-auto w-[70rem] grid grid-cols-3 mt-[5rem]'>
+      <a href="/blog/express">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>Express JS</p>
+            <p className='text-slate-600'>A first step into back-end programming; learning things with express like MySQL and HTTP requests</p>
+            <p className=' mt-2 text-sm text-slate-400'>February 22, 2023</p>
+          </div>  
+        </a>
         <a href="/blog/openai">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>OpenAI</p>

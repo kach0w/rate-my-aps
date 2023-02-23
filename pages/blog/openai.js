@@ -20,6 +20,7 @@ export default function Home() {
                 </div>
                 
                 <p className='text-left'>
+                    <br></br>
                     Currently, it seems like there is always some news or controversy behind OpenAI's ChatGPT, an
                     AI bot with extremely advanced capabilities. Released in November 2022, overnight it has
                     become a household name. As an increasing number of people start to use it, and companies like
