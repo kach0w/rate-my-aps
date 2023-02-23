@@ -53,9 +53,9 @@ export default function Home() {
       <h2 className='font-bold text-2xl underline mb-1'>Latest Blog Post</h2>
       <a href="/blog/openai">
           <div className='w-[30rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
-            <p className='font-bold group-hover:underline text-slate-900'>OpenAI</p>
-            <p className='text-slate-600'>Some words on the technology behind OpenAI's Dalle-2 and ChatGPT and some of the controversy behind it.</p>
-            <p className=' mt-2 text-sm text-slate-400'>January 22, 2023</p>
+            <p className='font-bold group-hover:underline text-slate-900'>Express JS</p>
+            <p className='text-slate-600'>A first step into back-end programming; learning things with express like MySQL and HTTP requests</p>
+            <p className=' mt-2 text-sm text-slate-400'>February 22, 2023</p>
           </div>  
         </a>
       <Footer />
