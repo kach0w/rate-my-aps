@@ -20,7 +20,7 @@ export default function Home() {
       <div className='mb-[2vh]'>
         Trying to Learn New Things.
       </div>
-      <div className='w-[30rem] h-[9rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] m-auto mb-[2rem]'>
+      <div className='w-[30rem] h-[9rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] m-auto mb-[2rem]'>
           <div className='w-[11rem] align-middle m-auto float-left'>
             <Image className='w-[12rem]' src={rusteze} alt="img"/>
           </div>
@@ -31,11 +31,11 @@ export default function Home() {
           </div>
       </div>
       <h2 className='font-bold text-2xl underline mb-1'>About Me</h2>
-      <div className='w-[30rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh]'>
+      <div className='w-[30rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh]'>
         I am a high schooler trying to learn new things in Computer Science. Right now I am trying to learn backend also want to learn more about machine learning in web applications. 
       </div>  
       <h2 className='font-bold text-2xl underline mb-1'>Contact</h2>
-      <div className='w-[30rem] rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh]'>
+      <div className='w-[30rem] rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh]'>
         <div>
           <ul>
             <li>
@@ -52,14 +52,13 @@ export default function Home() {
       </div>
       <h2 className='font-bold text-2xl underline mb-1'>Latest Blog Post</h2>
       <a href="/blog/openai">
-          <div className='w-[30rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
-            <p className='font-bold group-hover:underline text-slate-900'>Express JS</p>
-            <p className='text-slate-600'>A first step into back-end programming; learning things with express like MySQL and HTTP requests</p>
-            <p className=' mt-2 text-sm text-slate-400'>February 22, 2023</p>
+          <div className='w-[30rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>Wikipedia</p>
+            <p className='text-slate-600'>A speech from the Academic Decathlon competition on Wikipedia, not really web dev but still about technology in general</p>
+            <p className=' mt-2 text-sm text-slate-400'>March 27, 2023</p>
           </div>  
         </a>
       <Footer />
-      
     </div>
     
   )
