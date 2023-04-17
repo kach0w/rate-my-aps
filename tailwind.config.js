@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'serif': ['Proxima Nova', ...defaultTheme.fontFamily.sans],
+        'sans': ['Times', ...defaultTheme.fontFamily.sans],
       },
     },
   },

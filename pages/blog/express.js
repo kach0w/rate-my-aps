@@ -13,7 +13,7 @@ export default function Home() {
 
             <div className='w-[50rem] mx-auto bg-white text-[#222]'>
                 <div className='mx-auto mt-[3rem] text-center'>
-                    <a className='float-left text-[#3b82f6] hover:underline' href="https://kach0w.com/blog">Back</a>
+                    <a className='float-left text-[#3b82f6] hover:underline' href="https://kach0w.com/blog">⮤ Back</a>
                     <br></br>
                     <p className='font-bold group-hover:underline text-2xl text-slate-900'>Express JS</p>
                     <p className=' mt-2 text-md text-slate-400'>February 22, 2023</p>
