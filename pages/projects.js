@@ -51,7 +51,18 @@ export default function Home() {
           </div> 
         </a>
       </div>
-      
+      <div>
+        Some miscellaneous projects, small things I did for fun.
+      </div>
+      <div className='mx-auto w-[70rem] grid grid-cols-3 mt-[2rem]'>
+        <a href="https://kachow.me/web3d/wikipedia">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>wikipedia</p>
+            <p className='text-slate-600'>The rotating, 3d web; inspiration from bithole.dev</p>
+            <p className=' mt-2 text-sm text-slate-400'>JS · HTML</p>
+          </div>  
+        </a>
+      </div>
       <div className='mt-[35rem]'>
         <Footer />
       </div>
