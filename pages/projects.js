@@ -22,6 +22,13 @@ export default function Home() {
         Some selected projects, you can find more on my <a className=' text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub</a>.
       </div>
       <div className='mx-auto w-[70rem] grid grid-cols-3 mt-[5rem]'>
+        <a href="https://devpost.com/software/positivity-discord-bot">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>positivity-discord-bot</p>
+            <p className='text-slate-600'>Created a Discord Bot with sentiment analysis and Discord JS</p>
+            <p className=' mt-2 text-sm text-slate-400'>NodeJS · Javascript</p>
+          </div>  
+        </a>
         <a href="https://github.com/kach0w/dalle-api">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>dalle-api</p>
