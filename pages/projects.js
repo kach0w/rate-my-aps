@@ -22,6 +22,7 @@ export default function Home() {
         Some selected projects, you can find more on my <a className=' text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub</a>.
       </div>
       <div className='mx-auto w-[70rem] grid grid-cols-3 mt-[5rem]'>
+        
         <a href="https://devpost.com/software/positivity-discord-bot">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>positivity-discord-bot</p>
@@ -36,6 +37,13 @@ export default function Home() {
             <p className=' mt-2 text-sm text-slate-400'>NextJs · HTML</p>
           </div>  
         </a>
+        <a href="https://silly-snickerdoodle-e1a7d5.netlify.app/">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>kach0w-statistics</p>
+            <p className='text-slate-600'>Used ChartJS and stuff from my stats class to make a statistics app</p>
+            <p className=' mt-2 text-sm text-slate-400'>JS</p>
+          </div>  
+        </a>
         <a href="https://github.com/kach0w/Youtube-Playlist-Maker">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>youtube-playlist-maker</p>
@@ -43,7 +51,7 @@ export default function Home() {
             <p className=' mt-2 text-sm text-slate-400'>JS</p>
           </div>  
         </a>
-        <a href="https://github.com/kach0w/pokedex">
+        <a href="https://kach0w.github.io/pokemon/pokedex">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>pokédex</p>
             <p className='text-slate-600'>Using a Pokemon API to create a pokedex which carries a search function.</p>
@@ -66,6 +74,20 @@ export default function Home() {
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>wikipedia</p>
             <p className='text-slate-600'>The rotating, 3d web; inspiration from bithole.dev</p>
+            <p className=' mt-2 text-sm text-slate-400'>JS · HTML</p>
+          </div>  
+        </a>
+        <a href="https://kach0w.github.io/Weather">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>weather</p>
+            <p className='text-slate-600'>One of my first apps with APIs, the weather</p>
+            <p className=' mt-2 text-sm text-slate-400'>JS · HTML</p>
+          </div>  
+        </a>
+        <a href="https://kach0w.github.io/Calculator/calc">
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900'>apple-calculator</p>
+            <p className='text-slate-600'>A recreation of the Apple Calculator with just pure javascript</p>
             <p className=' mt-2 text-sm text-slate-400'>JS · HTML</p>
           </div>  
         </a>
