@@ -35,7 +35,7 @@ export default function Home() {
             <p className='font-bold group-hover:underline text-slate-900'>dalle-api</p>
             <p className='text-slate-600'>Created a image generator with the Dalle-2 API from OpenAI</p>
             <p className=' mt-2 text-sm text-slate-400'>NextJs · HTML</p>
-          </div>
+          </div>  
         </a>
         <a href="https://silly-snickerdoodle-e1a7d5.netlify.app/">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
