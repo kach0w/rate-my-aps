@@ -4,7 +4,7 @@ import Link from 'next/link';
 import logo from '../assets/favicon.ico'
 import Image from 'next/image'
 import scss from '../styles/Home.module.css'
-import shickywicky from '../assets/shicky.PNG'
+import shickywicky from '../assets/shicky.png'
 
 const about = () => {
   return (
