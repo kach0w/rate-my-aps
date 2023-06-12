@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "~@flaticon/flaticon-uicons/css/all/all";
 /* @import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;600;700;900&display=swap'); */
 
 
@@ -43,6 +44,11 @@ h3 {
   font-size: 24px;
 }
 
+h4 {
+  color: #222;
+  font-weight: 400;
+  font-size: 18px;
+}
 /* latin */
 @font-face {
   font-family: 'Proxima Nova';

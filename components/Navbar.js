@@ -5,6 +5,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Script from 'next/script';
 import Head from 'next/head'
+import Dropdown from './Dropdown.js'
 
 const Navbar = () => {
   return (
@@ -16,14 +17,11 @@ const Navbar = () => {
               <h2 className='inline-block align-middle font-black text-[2rem]'>Rate My AP's</h2>
             </div>
           </a>
-          <div className='float-right pr-40'>
-            <a className='text-[#222] inline-block align-middle font-black pt-[0.36rem] pr-5' href="../help">AP Help</a>
-            <a className='text-[#222] inline-block align-middle font-black pt-[0.36rem] pr-5' href="../team">Team</a>
-            <a className='text-[#222] inline-block align-middle font-black pt-[0.36rem] pr-5' href="../about">About</a>
-            <a className='text-[#222] inline-block align-middle font-black pt-[0.36rem]' href="../contact">Contact</a>
-
+          <div className='float-right pr-20'>
+            <Dropdown />
+            <a className='text-[#222] leading-sm inline-block align-middle font-black pt-[0.36rem] pr-5  hover:text-[#505050]' href="../about">About</a>
+            <a className='text-[#222] leading-sm inline-block align-middle font-black pt-[0.36rem] pr-5  hover:text-[#505050]' href="../team">Team</a>
           </div>
-          
         </div>
     </div>
   )

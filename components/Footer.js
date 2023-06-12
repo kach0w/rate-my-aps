@@ -2,14 +2,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='mt-[8rem] w-[25rem] mx-auto bg-[#f3f3f3] text-slate-500 text-sm font-normal'>
+    <div className='mt-[8rem] pb-[2rem] w-[25rem] mx-auto bg-[#f3f3f3] text-slate-500 text-sm font-normal'>
         <div class="float-left">
-            <p>Fremont, California</p>
+            <p>California</p>
         </div>
         <div class="float-right">
-            <a className='text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub </a>·
-            {/* <a className='hover:text-slate-300' href="https://github.com/kach0w"><i class="fab fa-github"></i> GitHub</a> ·  */}
-            <a className=' text-[#3b82f6] hover:underline' href="mailto:kachow@duck.com"> Email</a>
+            <a className='text-[#3b82f6]' href="mailto:ratemyaps@gmail.com"><i class="fi fi-rr-envelope"></i>  </a>
+            <a className='text-[#3b82f6]' href="https://github.com/Rate-My_Aps"><i class="fi fi-brands-github"></i></a>
         </div>
     </div>
   )
