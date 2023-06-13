@@ -134,6 +134,7 @@ const about = () => {
                     <a href="mailto:shikhar35sisodia35@gmail.com"><i class="fi fi-rr-envelope"></i>  </a>
                     <a href="https://github.com/shickywicky7"><i class="fi fi-brands-github"></i></a>
                     <div class="text-gray-700 font-light mb-2 w-[20rem] mx-auto">
+                    As a rising junior at BASIS Independent Fremont, Sheil Mody, I am very interested in this new project. My goal in this project is to be as useful as possible and would be doing so by working as a web developer alongside Karthik. I hope to make the journey of AP courses simpler and more effective to combat the difficulty of AP courses. In my spare time I enjoy biking and learning new tidbits of information.
                     </div>
                 </div>
             </div>
