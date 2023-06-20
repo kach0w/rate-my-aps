@@ -113,22 +113,6 @@ const about = () => {
                 </a>
                 <div class="text-center mt-6">
                     <h1 class="text-gray-900 text-xl font-bold mb-1">
-                    Koushik Chandolu
-                    </h1>
-                    <a href="mailto:kaushikc2008@gmail.com"><i class="fi fi-rr-envelope"></i>  </a>
-                    <a href="https://github.com/kaushik2008"><i class="fi fi-brands-github"></i></a>
-                    <div class="text-gray-700 font-light mb-2 w-[20rem] mx-auto">
-                    My name is Kaushik and I am an upcoming sophomore at Dublin High School and I am going to major in computer science. I have some experience coding and designing websites and I hope to use that knowledge to help make this project a reality. 
-                    </div>
-                </div>
-            </div>
-            <div class="flex-col text-center content-center">
-                <a href="#" className="mx-auto">
-                    <Image width={100}  height={100} className="w-[15rem] mx-auto"
-                        src="" unoptimized/>
-                </a>
-                <div class="text-center mt-6">
-                    <h1 class="text-gray-900 text-xl font-bold mb-1">
                     Sheil Mody
                     </h1>
                     <a href="mailto:shikhar35sisodia35@gmail.com"><i class="fi fi-rr-envelope"></i>  </a>
