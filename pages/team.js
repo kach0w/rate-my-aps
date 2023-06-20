@@ -7,6 +7,8 @@ import scss from '../styles/Home.module.css'
 import shickywicky from '../assets/team/shicky.png'
 import aadi from '../assets/team/aadi.png'
 import karthik from '../assets/team/karthik.png'
+import prajwal from '../assets/team/prajwal.png'
+import sheil from '../assets/team/sheil.png'
 import Footer from '../components/Footer'
 import Head from 'next/head'
 
@@ -77,7 +79,7 @@ const about = () => {
             <div class="flex-col text-center content-center">
                 <a href="#" className="mx-auto">
                     <Image width={100}  height={100} className="w-[15rem] mx-auto"
-                        src="" unoptimized/>
+                        src={prajwal} unoptimized/>
                 </a>
                 <div class="text-center mt-6">
                     <h1 class="text-gray-900 text-xl font-bold mb-1">
@@ -109,14 +111,13 @@ const about = () => {
             <div class="flex-col text-center content-center">
                 <a href="#" className="mx-auto">
                     <Image width={100}  height={100} className="w-[15rem] mx-auto"
-                        src="" unoptimized/>
+                        src={sheil} unoptimized/>
                 </a>
                 <div class="text-center mt-6">
                     <h1 class="text-gray-900 text-xl font-bold mb-1">
                     Sheil Mody
                     </h1>
                     <a href="mailto:shikhar35sisodia35@gmail.com"><i class="fi fi-rr-envelope"></i>  </a>
-                    <a href="https://github.com/shickywicky7"><i class="fi fi-brands-github"></i></a>
                     <div class="text-gray-700 font-light mb-2 w-[20rem] mx-auto">
                     As a rising junior at BASIS Independent Fremont, Sheil Mody, I am very interested in this new project. My goal in this project is to be as useful as possible and would be doing so by working as a web developer alongside Karthik. I hope to make the journey of AP courses simpler and more effective to combat the difficulty of AP courses. In my spare time I enjoy biking and learning new tidbits of information.
                     </div>
