@@ -29,6 +29,19 @@ export default function Dropdown() {
             <Menu.Item>
               {({ active }) => (
                 <a
+                  href="../ap-help/cards"
+                  className={classNames(
+                    active ? 'bg-gray-100 text-[#222]' : 'text-gray-700',
+                    'block px-4 py-2 text-sm'
+                  )}
+                >
+                  Exams
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
                   href="../ap-help/ratings"
                   className={classNames(
                     active ? 'bg-gray-100 text-[#222]' : 'text-gray-700',
