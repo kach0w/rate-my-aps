@@ -9,6 +9,8 @@ import aadi from '../assets/team/aadi.png'
 import karthik from '../assets/team/karthik.png'
 import prajwal from '../assets/team/prajwal.png'
 import sheil from '../assets/team/sheil.png'
+import ariv from '../assets/team/ariv.png'
+
 import Footer from '../components/Footer'
 import Head from 'next/head'
 
@@ -120,6 +122,22 @@ const about = () => {
                     <a href="mailto:shikhar35sisodia35@gmail.com"><i class="fi fi-rr-envelope"></i>  </a>
                     <div class="text-gray-700 font-light mb-2 w-[20rem] mx-auto">
                     As a rising junior at BASIS Independent Fremont, Sheil Mody, I am very interested in this new project. My goal in this project is to be as useful as possible and would be doing so by working as a web developer alongside Karthik. I hope to make the journey of AP courses simpler and more effective to combat the difficulty of AP courses. In my spare time I enjoy biking and learning new tidbits of information.
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col text-center content-center">
+                <a href="#" className="mx-auto">
+                    <Image width={100}  height={100} className="w-[15rem] mx-auto"
+                        src={ariv} unoptimized/>
+                </a>
+                <div class="text-center mt-6">
+                    <h1 class="text-gray-900 text-xl font-bold mb-1">
+                    Ariv Sahoo
+                    </h1>
+                    <a href="mailto:arivsahoo@gmail.com"><i class="fi fi-rr-envelope"></i>  </a>
+                    <a href="https://github.com/ArivSahoo"><i class="fi fi-brands-github"></i></a>
+                    <div class="text-gray-700 font-light mb-2 w-[20rem] mx-auto">
+                    My name is Ariv Sahoo, and I’m a rising junior at Dougherty Valley High School. I am the project manager of this app, and I am glad to put my skills to use. AP courses are a very important part of high school, and this app gives great insight to high schoolers taking AP courses. I have also coded my own app, called Volpass, which is publicly available on iOS and Android platforms. I am a travel team competitor for FBLA, who made nationals, and I enjoy working in an entrepreneurial space.
                     </div>
                 </div>
             </div>
