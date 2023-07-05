@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { db } from '../lib/firebase';
+import { auth, db } from '../lib/firebase';
 import Image from 'next/image'
 import { useAuth } from '../context/AuthUserContext';
 
@@ -90,22 +90,36 @@ const Voting = ({docname}) => {
   }, []);
 
   const handleVote = async (option) => {
+    console.log(authUser?.email)
     if(authUser !== null){
-      await db.collection('votes').doc(docname).update({
-        [option]: votes[option] + 1,
-      });
-  
-      setVotes((prevVotes) => ({
-        ...prevVotes,
-        [option]: prevVotes[option] + 1,
-      }));
+      var docRef = db.collection("votes").doc(docname).collection('users').doc(authUser?.email);
+      docRef.get().then((doc) => {
+        if(!doc.exists){
+          db.collection('votes').doc(docname).update({
+            [option]: votes[option] + 1,
+          });
+          db.collection("votes").doc(docname).collection('users').doc(authUser?.email).set({
+            one: 1,
+          })
+          setVotes((prevVotes) => ({
+            ...prevVotes,
+            [option]: prevVotes[option] + 1,
+          }));
+        } else {
+          alert("You Have Already Voted!");
+        }
+      })
+      
     } else {
       alert("Not Logged In!");
     }
-    
-    
-
   };
+
+  // const addToDB = async () => {
+  //   db.collection("votes").doc(docname).collection('users').doc('goooogooo').set({
+  //     one: 0
+  //   })
+  // }
 
   return (
     <div>
@@ -121,7 +135,8 @@ const Voting = ({docname}) => {
       <p>&nbsp;&nbsp;{numvotes} ratings</p></li>
 
       </ul>
-      
+      {/* <button className="text-yellow-400" onClick={() => addToDB()}>Add to db</button> */}
+
 
 
     </div>
