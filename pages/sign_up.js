@@ -21,7 +21,7 @@ const SignUp = () => {
       createUserWithEmailAndPassword(email, passwordOne)
       .then(authUser => {
         console.log("Success. The user is created in firebase")
-        router.push("/logged_in");
+        router.push("/");
       })
       .catch(error => {
         setError(error.message)
