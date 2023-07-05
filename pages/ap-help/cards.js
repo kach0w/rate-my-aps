@@ -28,7 +28,7 @@ const cards = () => {
             {/*chemistry*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#3F2B96] to-[#9bb1eb] text-white'>
-                    <p className='text-2xl'><i class="fi fi-br-test-tube"></i><br></br>AP Chemistry<br></br></p> 
+                    <p className='text-2xl whitespace-pre'><i class="fi fi-br-test-tube"></i><br></br>AP Chemistry<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -46,7 +46,7 @@ const cards = () => {
             {/*biology*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#9ebd13] to-[#008552] text-white'>
-                    <p className='text-2xl'><i class="fi fi-br-dna"></i><br></br>AP Biology</p> 
+                    <p className='text-2xl'><i class="fi fi-br-dna"></i><br></br>AP Biology<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -64,7 +64,7 @@ const cards = () => {
             {/*apes*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#9ebd13] to-[#008552] text-white'>
-                    <p className='text-2xl'><i class="fi fi-br-dna"></i><br></br>AP Environmental Science</p> 
+                    <p className='text-2xl'><i class="fi fi-br-dna"></i><br></br>AP Environmental Science<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -81,8 +81,8 @@ const cards = () => {
             </div>    
             {/*physicsone*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
-                <div className='p-2 rounded-t-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>
-                    <p className='text-2xl'><i class="fi fi-br-physics"></i><br></br>AP Physics 1</p> 
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#00d2ff] to-[#3a47d5] text-white'>
+                    <p className='text-2xl'><i class="fi fi-br-physics"></i><br></br>AP Physics 1<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -99,8 +99,8 @@ const cards = () => {
             </div>
             {/*physicstwo*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
-                <div className='p-2 rounded-t-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>
-                    <p className='text-2xl'><i class="fi fi-ss-physics"></i><br></br>AP Physics 2</p> 
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#00d2ff] to-[#3a47d5] text-white'>
+                    <p className='text-2xl'><i class="fi fi-ss-physics"></i><br></br>AP Physics 2<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -117,8 +117,8 @@ const cards = () => {
             </div>
             {/*physicscmecahnics*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
-                <div className='p-2 rounded-t-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>
-                    <p className='text-2xl'><i class="fi fi-ss-physics"></i><br></br>AP Physics C - Mechanics</p> 
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#00d2ff] to-[#3a47d5] text-white'>
+                    <p className='text-2xl'><i class="fi fi-ss-physics"></i><br></br>AP Physics C - Mechanics<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -135,8 +135,8 @@ const cards = () => {
             </div>    
             {/*physicsceandm*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
-                <div className='p-2 rounded-t-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>
-                    <p className='text-2xl'><i class="fi fi-ss-physics"></i><br></br>AP Physics C - E&M</p> 
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#00d2ff] to-[#3a47d5] text-white'>
+                    <p className='text-2xl'><i class="fi fi-ss-physics"></i><br></br>AP Physics C - E&M<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -154,7 +154,7 @@ const cards = () => {
             {/*csa*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#FC466B] to-[#3F5EFB] text-white'>
-                    <p className='text-2xl'><i class="fi fi-rs-laptop"></i><br></br>AP Computer Science A</p> 
+                    <p className='text-2xl'><i class="fi fi-rs-laptop"></i><br></br>AP Computer Science A<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -172,7 +172,7 @@ const cards = () => {
             {/*csp*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#FC466B] to-[#3F5EFB] text-white'>
-                    <p className='text-2xl'><i class="fi fi-rs-laptop"></i><br></br>AP Computer Science P</p> 
+                    <p className='text-2xl'><i class="fi fi-rs-laptop"></i><br></br>AP Computer Science P<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -190,7 +190,7 @@ const cards = () => {
             {/*ap calc ab*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#d53369] to-[#daae51] text-white'>
-                    <p className='text-2xl'><i class="fi fi-rr-calculator"></i><br></br>AP Calculus AB</p> 
+                    <p className='text-2xl'><i class="fi fi-rr-calculator"></i><br></br>AP Calculus AB<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -208,7 +208,7 @@ const cards = () => {
             {/*ap calc bc*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#d53369] to-[#daae51] text-white'>
-                    <p className='text-2xl'><i class="fi fi-rr-calculator"></i><br></br>AP Calculus BC</p> 
+                    <p className='text-2xl'><i class="fi fi-rr-calculator"></i><br></br>AP Calculus BC<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -226,7 +226,7 @@ const cards = () => {
             {/*ap stats*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#d53369] to-[#daae51] text-white'>
-                    <p className='text-2xl'><i class="fi fi-rr-calculator"></i><br></br>AP Statistics</p> 
+                    <p className='text-2xl'><i class="fi fi-rr-calculator"></i><br></br>AP Statistics<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -244,7 +244,7 @@ const cards = () => {
             {/*ap us History*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#fcff9e] to-[#c67700] text-white'>
-                    <p className='text-2xl'><i class="fi fi-sr-globe-alt"></i><br></br>AP U.S. History</p> 
+                    <p className='text-2xl'><i class="fi fi-sr-globe-alt"></i><br></br>AP U.S. History<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -262,7 +262,7 @@ const cards = () => {
             {/*ap world History*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#fcff9e] to-[#c67700] text-white'>
-                    <p className='text-2xl'><i class="fi fi-sr-globe-alt"></i><br></br>AP World History</p> 
+                    <p className='text-2xl'><i class="fi fi-sr-globe-alt"></i><br></br>AP World History<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -280,7 +280,7 @@ const cards = () => {
             {/*ap euro History*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#fcff9e] to-[#c67700] text-white'>
-                    <p className='text-2xl'><i class="fi fi-sr-globe-alt"></i><br></br>AP European History</p> 
+                    <p className='text-2xl'><i class="fi fi-sr-globe-alt"></i><br></br>AP European History<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -315,8 +315,8 @@ const cards = () => {
             </div>
             {/*ap Art History*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
-                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#efd5ff] to-[#515ada] text-white'>
-                    <p className='text-2xl'><i class="fi fi-sr-palette"></i><br></br>AP Art History</p> 
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#3F2B96] to-[#9bb1eb] text-white'>
+                    <p className='text-2xl'><i class="fi fi-sr-palette"></i><br></br>AP Art History<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -334,7 +334,7 @@ const cards = () => {
             {/*ap Seminar*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#4b6cb7] to-[#182848] text-white'>
-                    <p className='text-2xl'><i class="fi fi-bs-book-bookmark"></i><br></br>AP Seminar</p> 
+                    <p className='text-2xl'><i class="fi fi-bs-book-bookmark"></i><br></br>AP Seminar<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -352,7 +352,7 @@ const cards = () => {
             {/*ap psych*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#4b6cb7] to-[#182848] text-white'>
-                    <p className='text-2xl'><i class="fi fi-bs-book-bookmark"></i><br></br>AP Psychology</p> 
+                    <p className='text-2xl'><i class="fi fi-bs-book-bookmark"></i><br></br>AP Psychology<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -370,7 +370,7 @@ const cards = () => {
             {/*ap Literature*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#4b6cb7] to-[#182848] text-white'>
-                    <p className='text-2xl'><i class="fi fi-bs-book-bookmark"></i><br></br>AP Literature</p> 
+                    <p className='text-2xl'><i class="fi fi-bs-book-bookmark"></i><br></br>AP Literature<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -406,7 +406,7 @@ const cards = () => {
             {/*ap micro*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
             <div className='p-2 rounded-t-md bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] text-white'>
-                    <p className='text-2xl'><i class="fi fi-rr-chart-line-up"></i><br></br>AP Microeconomics</p> 
+                    <p className='text-2xl'><i class="fi fi-rr-chart-line-up"></i><br></br>AP Microeconomics<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -424,7 +424,7 @@ const cards = () => {
             {/*ap macro*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] text-white'>
-                    <p className='text-2xl'><i class="fi fi-rr-chart-line-up"></i><br></br>AP Macroeconomics</p> 
+                    <p className='text-2xl'><i class="fi fi-rr-chart-line-up"></i><br></br>AP Macroeconomics<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
@@ -441,19 +441,127 @@ const cards = () => {
             </div>
             {/*ap mandarin*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
-                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#4b6cb7] to-[#182848] text-white'>
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
                     <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Chinese Language and Culture</p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
-                    <Voting docname="mandarin" /> 
-                    <a href="/subjects/mandarin" className="mx-auto">
+                    <Voting docname="apmandarin" /> 
+                    <a href="/subjects/apmandarin" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
                     </a>
                     <div class="p-6">
                     <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 9, 8:00 AM
+                    </div>
+                </div>
+            </div>
+            {/*ap italian*/}
+            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
+                    <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Italian Language and Culture</p> 
+                </div>
+                <div className='rounded-md'>
+                    <br></br>
+                    <Voting docname="apitalian" /> 
+                    <a href="/subjects/apitalian" className="mx-auto">
+                        <div className='hover:underline text-[#3b82f6]'>
+                            Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
+                        </div>
+                    </a>
+                    <div class="p-6">
+                    <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 13, 12:00 PM
+                    </div>
+                </div>
+            </div>
+            {/*ap french*/}
+            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
+                    <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP French Language and Culture</p> 
+                </div>
+                <div className='rounded-md'>
+                    <br></br>
+                    <Voting docname="apfrench" /> 
+                    <a href="/subjects/apfrench" className="mx-auto">
+                        <div className='hover:underline text-[#3b82f6]'>
+                            Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
+                        </div>
+                    </a>
+                    <div class="p-6">
+                    <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 15, 8:00 AM
+                    </div>
+                </div>
+            </div>
+            {/*ap spanish*/}
+            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
+                    <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Spanish Language and Culture</p> 
+                </div>
+                <div className='rounded-md'>
+                    <br></br>
+                    <Voting docname="apspanish" /> 
+                    <a href="/subjects/apspanish" className="mx-auto">
+                        <div className='hover:underline text-[#3b82f6]'>
+                            Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
+                        </div>
+                    </a>
+                    <div class="p-6">
+                    <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 16, 8:00 AM
+                    </div>
+                </div>
+            </div>
+            {/*ap Japanese*/}
+            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
+                    <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Japanese Language and Culture</p> 
+                </div>
+                <div className='rounded-md'>
+                    <br></br>
+                    <Voting docname="apjapanese" /> 
+                    <a href="/subjects/apjapanese" className="mx-auto">
+                        <div className='hover:underline text-[#3b82f6]'>
+                            Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
+                        </div>
+                    </a>
+                    <div class="p-6">
+                    <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 17 12:00 PM
+                    </div>
+                </div>
+            </div>
+            {/*ap german*/}
+            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
+                    <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP German Language and Culture</p> 
+                </div>
+                <div className='rounded-md'>
+                    <br></br>
+                    <Voting docname="apgerman" /> 
+                    <a href="/subjects/apgerman" className="mx-auto">
+                        <div className='hover:underline text-[#3b82f6]'>
+                            Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
+                        </div>
+                    </a>
+                    <div class="p-6">
+                    <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 17, 8:00 PM
+                    </div>
+                </div>
+            </div>
+            {/*ap latin*/}
+            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
+                    <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Latin<span>{<br/>}</span><br></br></p> 
+                </div>
+                <div className='rounded-md'>
+                    <br></br>
+                    <Voting docname="aplatin" /> 
+                    <a href="/subjects/aplatin" className="mx-auto">
+                        <div className='hover:underline text-[#3b82f6]'>
+                            Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
+                        </div>
+                    </a>
+                    <div class="p-6">
+                    <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 13, 12:00 PM
                     </div>
                 </div>
             </div>
