@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
-import { db } from '../firebase';
+import { db } from '../lib/firebase';
 import Image from 'next/image'
+import { useAuth } from '../context/AuthUserContext';
 
 const Voting = ({docname}) => {
+  const { authUser } = useAuth();
+
   const [votes, setVotes] = useState({ one: 0, two: 0, three: 0, four: 0, five: 0 });
   
   const bigsum = ((1*votes.one) + (2*votes.two) + (3*votes.three) + (4*votes.four) + (5*votes.five));
@@ -75,7 +78,6 @@ const Voting = ({docname}) => {
     document.getElementById(idfive).innerHTML = '<i class="fi fi-sr-star"></i>';
   }
   useEffect(() => {
-    // Fetch initial votes from the Firestore database
     const fetchVotes = async () => {
       const snapshot = await db.collection('votes').doc(docname).get();
       const data = snapshot.data();
@@ -88,15 +90,19 @@ const Voting = ({docname}) => {
   }, []);
 
   const handleVote = async (option) => {
-    // Update votes in the Firestore database
-    await db.collection('votes').doc(docname).update({
-      [option]: votes[option] + 1,
-    });
-
-    setVotes((prevVotes) => ({
-      ...prevVotes,
-      [option]: prevVotes[option] + 1,
-    }));
+    if(authUser !== null){
+      await db.collection('votes').doc(docname).update({
+        [option]: votes[option] + 1,
+      });
+  
+      setVotes((prevVotes) => ({
+        ...prevVotes,
+        [option]: prevVotes[option] + 1,
+      }));
+    } else {
+      alert("Not Logged In!");
+    }
+    
     
 
   };

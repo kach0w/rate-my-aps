@@ -4,10 +4,10 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
 
 
+import { AuthUserProvider } from '../context/AuthUserContext';
+
 function MyApp({ Component, pageProps }) {
-  return (
-      <Component {...pageProps} />
-  )
+  return <AuthUserProvider><Component {...pageProps} /></AuthUserProvider>
 }
 
 export default MyApp

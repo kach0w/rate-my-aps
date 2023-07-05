@@ -21,6 +21,8 @@ const Navbar = () => {
             <Dropdown />
             <a className='text-[#222] leading-sm inline-block align-middle font-black pt-[0.36rem] pr-5  hover:text-[#505050]' href="../about">About</a>
             <a className='text-[#222] leading-sm inline-block align-middle font-black pt-[0.36rem] pr-5  hover:text-[#505050]' href="../team">Team</a>
+            <a className='text-white bg-slate-500 rounded-md p-2 leading-sm inline-block align-middle font-black pt-[0.36rem]  hover:text-[#505050]' href="../login"> Login / Sign Up</a>
+
           </div>
         </div>
     </div>
