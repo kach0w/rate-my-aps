@@ -313,6 +313,24 @@ const cards = () => {
                     </div>
                 </div>
             </div>
+            {/*ap human geo*/}
+            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#fcff9e] to-[#c67700] text-white'>
+                    <p className='text-2xl'><i class="fi fi-rr-gavel"></i><br></br>AP Human Geography</p> 
+                </div>
+                <div className='rounded-md'>
+                    <br></br>
+                    <Voting docname="humangeo" /> 
+                    <a href="/subjects/humangeo" className="mx-auto">
+                        <div className='hover:underline text-[#3b82f6]'>
+                            Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
+                        </div>
+                    </a>
+                    <div class="p-6">
+                    <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 7, 8:00 AM
+                    </div>
+                </div>
+            </div>
             {/*ap Art History*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#3F2B96] to-[#9bb1eb] text-white'>
@@ -328,6 +346,24 @@ const cards = () => {
                     </a>
                     <div class="p-6">
                     <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 6, 12:00 PM
+                    </div>
+                </div>
+            </div>
+            {/*ap Music Theory*/}
+            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+                <div className='p-2 rounded-t-md bg-gradient-to-r from-[#3F2B96] to-[#9bb1eb] text-white'>
+                    <p className='text-2xl'><i class="fi fi-sr-palette"></i><br></br>AP Music Theory<span>{<br/>}</span><br></br></p> 
+                </div>
+                <div className='rounded-md'>
+                    <br></br>
+                    <Voting docname="musictheory" /> 
+                    <a href="/subjects/musictheory" className="mx-auto">
+                        <div className='hover:underline text-[#3b82f6]'>
+                            Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
+                        </div>
+                    </a>
+                    <div class="p-6">
+                    <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 15, 12:00 PM
                     </div>
                 </div>
             </div>
