@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import Navbar from '../components/Navbar'
 
 import { useAuth } from '../context/AuthUserContext';
 
@@ -32,15 +33,23 @@ const SignUp = () => {
   };
 
   return (
-    <Container className="text-center" style={{ padding: '40px 0px'}}>
+    <div>
+      <Navbar />
+      <Container className="text-center bg-[#657786] rounded-lg p-4 w-[30rem] mx-auto">
+      <Row>
+          <Col>
+            <h2 className='text-[white]'>Sign Up</h2>
+          </Col>
+        </Row>
       <Row>
         <Col>
           <Form style={{maxWidth: '400px', margin: 'auto'}} onSubmit={onSubmit}>
           { error && <Alert color="danger">{error}</Alert>}
             <FormGroup row>
-              <Label for="signUpEmail" sm={4}>Email</Label>
+              {/* <Label for="signUpEmail" sm={4}>Email</Label> */}
               <Col sm={8}>
                 <Input
+                  className='rounded-md p-2 text-[black]'
                   type="email"
                   value={email}
                   onChange={(event) => setEmail(event.target.value)}
@@ -49,10 +58,11 @@ const SignUp = () => {
                   placeholder="Email" />
               </Col>
             </FormGroup>
-            <FormGroup row>
-              <Label for="signUpPassword" sm={4}>Password</Label>
+            <FormGroup row className='pt-3'>
+              {/* <Label for="signUpPassword" sm={4}>Password</Label> */}
               <Col sm={8}>
                 <Input
+                  className='rounded-md p-2 text-[black]'
                   type="password"
                   name="passwordOne"
                   value={passwordOne}
@@ -61,10 +71,11 @@ const SignUp = () => {
                   placeholder="Password" />
               </Col>
             </FormGroup>
-            <FormGroup row>
-              <Label for="signUpPassword2" sm={4}>Confirm Password</Label>
+            <FormGroup row className='pt-3'>
+              <Label className="text-white" for="signUpPassword2" sm={4}>Confirm Password</Label>
               <Col sm={8}>
                 <Input
+                  className='rounded-md p-2 text-[black]'
                   type="password"
                   name="password"
                   value={passwordTwo}
@@ -73,15 +84,22 @@ const SignUp = () => {
                   placeholder="Password" />
               </Col>
             </FormGroup>
-            <FormGroup row>
+            <FormGroup row className='pt-5'>
              <Col>
-               <Button>Sign Up</Button>
+               <Button className='bg-[#3b82f6] py-2 px-8 rounded-lg hover:shadow-lg hover:text-slate-200  '>Sign Up</Button>
              </Col>
            </FormGroup>
+           <FormGroup row className='pt-[5rem] text-slate-700'>
+              <Col>
+              Have an account already? <a className="hover:underline text-[white]" href="/login">Login In</a>
+              </Col>
+            </FormGroup>
           </Form>
         </Col>
       </Row>
     </Container>
+    </div>
+    
   )
 }
 

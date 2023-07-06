@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Navbar from '../components/Navbar'
 
 import { useAuth } from '../context/AuthUserContext';
 
@@ -27,53 +28,59 @@ export default function Login() {
   };
 
   return (
-    <Container className="text-center" style={{ padding: '40px 0px'}}>
-      <Row>
-        <Col>
-          <h2>Login</h2>
-        </Col>
-      </Row>
-      <Row style={{maxWidth: '400px', margin: 'auto'}}>
-        <Col>
-          <Form onSubmit={onSubmit}>
-          { error && <Alert color="danger">{error}</Alert>}
-            <FormGroup row>
-              <Label for="loginEmail" sm={4}>Email</Label>
-              <Col sm={8}>
-                <Input
-                  type="email"
-                  value={email}
-                  onChange={(event) => setEmail(event.target.value)}
-                  name="email"
-                  id="loginEmail"
-                  placeholder="Email" />
+    <div>
+      <Navbar />
+      <Container className="text-center bg-[#657786] rounded-lg p-4 w-[30rem] mx-auto">
+        <Row>
+          <Col>
+            <h2 className='text-[white]'>Login</h2>
+          </Col>
+        </Row>
+        <Row className="text-[white]">
+          <Col>
+            <Form onSubmit={onSubmit}>
+            { error && <Alert color="danger">{error}</Alert>}
+              <FormGroup row>
+                {/* <Label for="loginEmail" sm={4}>Email</Label> */}
+                <Col sm={8}>
+                  <Input
+                    className='rounded-md p-2 text-[black]'
+                    type="email"
+                    value={email}
+                    onChange={(event) => setEmail(event.target.value)}
+                    name="email"
+                    id="loginEmail"
+                    placeholder="Email" />
+                </Col>
+              </FormGroup>
+              <FormGroup row className='pt-3'>
+                {/* <Label for="loginPassword" sm={4}>Password</Label> */}
+                <Col sm={8}>
+                  <Input
+                    className='rounded-md p-2 text-[black]'
+                    type="password"
+                    name="password"
+                    value={password}
+                    onChange={(event) => setPassword(event.target.value)}
+                    id="loginPassword"
+                    placeholder="Password" />
+                </Col>
+              </FormGroup>
+              <FormGroup row>
+              <Col className='pt-5'>
+                <Button className='bg-[#3b82f6] py-2 px-8 rounded-lg hover:shadow-lg hover:text-slate-200'>Login</Button>
               </Col>
             </FormGroup>
-            <FormGroup row>
-              <Label for="loginPassword" sm={4}>Password</Label>
-              <Col sm={8}>
-                <Input
-                  type="password"
-                  name="password"
-                  value={password}
-                  onChange={(event) => setPassword(event.target.value)}
-                  id="loginPassword"
-                  placeholder="Password" />
+            <FormGroup row className='pt-[5rem] text-slate-700'>
+              <Col>
+              Don't have an account? <a className="hover:underline text-[white]" href="/sign_up">Sign Up</a>
               </Col>
             </FormGroup>
-            <FormGroup row>
-             <Col>
-               <Button>Login</Button>
-             </Col>
-           </FormGroup>
-           <FormGroup row>
-            <Col>
-              No account? <Link href="/sign_up">Create one</Link>
-            </Col>
-          </FormGroup>
-          </Form>
-        </Col>
-      </Row>
-    </Container>
+            </Form>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+    
   )
 }
