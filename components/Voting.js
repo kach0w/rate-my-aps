@@ -88,6 +88,8 @@ const Voting = ({docname}) => {
 
     fetchVotes();
   }, []);
+  
+  // var theirVote = "";
 
   const handleVote = async (option) => {
     console.log(authUser?.email)
@@ -105,6 +107,7 @@ const Voting = ({docname}) => {
             ...prevVotes,
             [option]: prevVotes[option] + 1,
           }));
+          // theirVote = option;
         } else {
           alert("You Have Already Voted!");
         }
@@ -131,9 +134,8 @@ const Voting = ({docname}) => {
       <button className="text-yellow-400" id={idthree} onClick={() => handleVote('three')}><i class="fi fi-rr-star"></i></button>
       <button className="text-yellow-400" id={idfour} onClick={() => handleVote('four')}><i class="fi fi-rr-star"></i></button>
       <button className="text-yellow-400" id={idfive} onClick={() => handleVote('five')}><i class="fi fi-rr-star"></i></button></li>
-        <li className='inline-block'>      
-      <p>&nbsp;&nbsp;{numvotes} ratings</p></li>
-
+      <li className='inline-block'><p>&nbsp;&nbsp;{numvotes} ratings</p></li>
+      {/* <button className='hidden pl-3' onClick={() => edit()}><i class="fi fi-rr-pencil"></i></button> */}
       </ul>
       {/* <button className="text-yellow-400" onClick={() => addToDB()}>Add to db</button> */}
 
