@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Rate My AP's</title>
         <meta name="description" content="Help with your AP's from students across the country"></meta>
-        <link rel="icon" href="../assets/favicon.ico"/> 
+        <link rel="icon" sizes="196x196" href="/favicon.ico"/>  
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet"/>

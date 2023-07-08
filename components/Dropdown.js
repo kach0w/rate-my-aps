@@ -42,13 +42,13 @@ export default function Dropdown() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="../ap-help/ratings"
+                  href="../ap-help/questions"
                   className={classNames(
                     active ? 'bg-gray-100 text-[#222]' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Ratings
+                  Questions
                 </a>
               )}
             </Menu.Item>
@@ -65,20 +65,6 @@ export default function Dropdown() {
                 </a>
               )}
             </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="../ap-help/resources"
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  Resources
-                </a>
-              )}
-            </Menu.Item>
-            
           </div>
         </Menu.Items>
       </Transition>
