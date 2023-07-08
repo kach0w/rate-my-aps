@@ -3,7 +3,7 @@
 */
 import React from 'react';
 import Link from 'next/link';
-import logo from '../assets/favicon.ico'
+import logo from '../assets/android-chrome-192x192.png'
 import Image from 'next/image'
 import Dropdown from './Dropdown.js'
 import { useRouter } from 'next/router';
