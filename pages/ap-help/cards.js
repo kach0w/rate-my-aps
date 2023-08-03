@@ -33,7 +33,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="chemistry" /> 
-                    <a href="/subjects/chemistry" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=chemistry" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -51,7 +51,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="biology" /> 
-                    <a href="/subjects/biology" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=biology" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -69,7 +69,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="environmentalscience" /> 
-                    <a href="/subjects/environmentalscience" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=environmentalscience" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -87,7 +87,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="physicsone" /> 
-                    <a href="/subjects/physicsone" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=physicsone" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -105,7 +105,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="physicstwo" /> 
-                    <a href="/subjects/physicstwo" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=physicstwo" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -123,7 +123,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="physicscmechanics" /> 
-                    <a href="/subjects/physicscmechanics" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=physicscmechanics" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -141,7 +141,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="physicsceandm" /> 
-                    <a href="/subjects/physicsceandm" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=physicsceandm" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -159,7 +159,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="computersciencea" /> 
-                    <a href="/subjects/computersciencea" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=computersciencea" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -177,7 +177,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="computersciencep" /> 
-                    <a href="/subjects/computersciencep" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=computersciencep" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -195,7 +195,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="calculusab" /> 
-                    <a href="/subjects/calculusab" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=calculusab" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -213,7 +213,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="calculusbc" /> 
-                    <a href="/subjects/]calculusbc" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=calculusbc" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -231,7 +231,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="statistics" /> 
-                    <a href="/subjects/statistics" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=statistics" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -249,7 +249,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="ushistory" /> 
-                    <a href="/subjects/ushistory" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=ushistory" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -267,7 +267,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="worldhistory" /> 
-                    <a href="/subjects/worldhistory" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=worldhistory" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -285,7 +285,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="eurohistory" /> 
-                    <a href="/subjects/eurohistory" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=eurohistory" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -303,7 +303,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="usgovt" /> 
-                    <a href="/subjects/usgovt" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=usgovt" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -316,12 +316,12 @@ const cards = () => {
             {/*ap human geo*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#fcff9e] to-[#c67700] text-white'>
-                    <p className='text-2xl'><i class="fi fi-rr-gavel"></i><br></br>AP Human Geography</p> 
+                    <p className='text-2xl'><i class="fi fi-rr-gavel"></i><br></br>AP Human Geography<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="humangeo" /> 
-                    <a href="/subjects/humangeo" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=humangeo" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -339,7 +339,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="arthistory" /> 
-                    <a href="/subjects/arthistory" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=arthistory" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -357,7 +357,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="musictheory" /> 
-                    <a href="/subjects/musictheory" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=musictheory" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -375,7 +375,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="seminar" /> 
-                    <a href="/subjects/seminar" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=seminar" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -393,7 +393,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="psychology" /> 
-                    <a href="/subjects/psychology" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=psychology" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -411,7 +411,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="literature" /> 
-                    <a href="/subjects/literature" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=literature" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -429,7 +429,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="lang" /> 
-                    <a href="/subjects/lang" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=lang" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -447,7 +447,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="microeconomics" /> 
-                    <a href="/subjects/microeconomics" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=microeconomics" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -465,7 +465,7 @@ const cards = () => {
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="macroeconomics" /> 
-                    <a href="/subjects/macroeconomics" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=macroeconomics" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -476,14 +476,14 @@ const cards = () => {
                 </div>
             </div>
             {/*ap mandarin*/}
-            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+            {/* <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
                     <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Chinese Language and Culture</p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="apmandarin" /> 
-                    <a href="/subjects/apmandarin" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=apmandarin" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -492,16 +492,16 @@ const cards = () => {
                     <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 9, 8:00 AM
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/*ap italian*/}
-            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+            {/* <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
                     <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Italian Language and Culture</p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="apitalian" /> 
-                    <a href="/subjects/apitalian" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=apitalian" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -510,16 +510,16 @@ const cards = () => {
                     <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 13, 12:00 PM
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/*ap french*/}
-            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+            {/* <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
                     <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP French Language and Culture</p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="apfrench" /> 
-                    <a href="/subjects/apfrench" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=apfrench" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -528,16 +528,16 @@ const cards = () => {
                     <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 15, 8:00 AM
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/*ap spanish*/}
-            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+            {/* <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
                     <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Spanish Language and Culture</p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="apspanish" /> 
-                    <a href="/subjects/apspanish" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=apspanish" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -546,16 +546,16 @@ const cards = () => {
                     <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 16, 8:00 AM
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/*ap Japanese*/}
-            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+            {/* <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
                     <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Japanese Language and Culture</p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="apjapanese" /> 
-                    <a href="/subjects/apjapanese" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=apjapanese" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -564,16 +564,16 @@ const cards = () => {
                     <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 17 12:00 PM
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/*ap german*/}
-            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+            {/* <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
                     <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP German Language and Culture</p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="apgerman" /> 
-                    <a href="/subjects/apgerman" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=apgerman" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -582,16 +582,16 @@ const cards = () => {
                     <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 17, 8:00 PM
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/*ap latin*/}
-            <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
+            {/* <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#0700b8] to-[#00ff88] text-white'>
                     <p className='text-2xl'><i class="fi fi-ss-messages"></i><br></br>AP Latin<span>{<br/>}</span><br></br></p> 
                 </div>
                 <div className='rounded-md'>
                     <br></br>
                     <Voting docname="aplatin" /> 
-                    <a href="/subjects/aplatin" className="mx-auto">
+                    <a href="/ap-help/resources?selectedOption=aplatin" className="mx-auto">
                         <div className='hover:underline text-[#3b82f6]'>
                             Course Resources<i class="fi fi-rr-arrow-small-right"></i> 
                         </div>
@@ -600,7 +600,7 @@ const cards = () => {
                     <b><i class="fi fi-rr-calendar-lines"></i>&nbsp;&nbsp;Exam Day</b>&nbsp;&nbsp; May 13, 12:00 PM
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )

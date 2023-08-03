@@ -6,7 +6,7 @@ import { useAuth } from '../context/AuthUserContext';
 const Voting = ({docname}) => {
   const { authUser } = useAuth();
 
-  const [votes, setVotes] = useState({ one: 0, two: 0, three: 0, four: 0, five: 0 });
+  const [votes, setVotes] = useState({ one: 0, two: 0, three: 0, four: 0, five: 0, name: ""});
   
   const bigsum = ((1*votes.one) + (2*votes.two) + (3*votes.three) + (4*votes.four) + (5*votes.five));
   var numvotes = votes.one + votes.two + votes.three + votes.four + votes.five;
@@ -119,8 +119,10 @@ const Voting = ({docname}) => {
   };
 
   // const addToDB = async () => {
-  //   db.collection("votes").doc(docname).collection('users').doc('goooogooo').set({
-  //     one: 0
+  //   db.collection("votes").doc(docname).collection('posts').doc('goooogooo').set({
+  //     content: "test post",
+  //     author: "Karthik",
+  //     createdAt: new Date().toISOString(),
   //   })
   // }
 
