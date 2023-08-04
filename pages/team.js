@@ -30,7 +30,7 @@ const about = () => {
             Meet our team:
             
         </h1>
-        <div className='grid grid-cols-3 grid-rows-2 w-[70vw] mx-auto mt-20'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 grid-rows-2 sm:w-[70vw] mx-auto mt-20'>
             <div class="flex-col text-center content-center">
                 <a href="#" className="mx-auto">
                     <Image width={100}  height={100} className="w-[15rem] mx-auto"
@@ -44,21 +44,6 @@ const about = () => {
                     <a href="https://github.com/shickywicky7"><i class="fi fi-brands-github"></i></a>
                     <div class="text-gray-700 font-light mb-2 w-[20rem] mx-auto">
                     Hi! My name is Shikhar Sisodia. I am an incoming Junior at Dougherty Valley High School. I am beyond excited to be part of Rate My APs. I am the current Founder, Marketer, and Social Media Manager for this App as I strive for this app to assist high schoolers throughout their journey in high school picking their majors and future classes they take. In my free time, I like to play video games and basketball. I also like to meet new people and develop new friendships. I look forward to this idea to very successful in the near future.
-                    </div>
-                </div>
-            </div>
-            <div class="flex-col text-center content-center">
-                <a href="#" className="mx-auto">
-                    <Image width={100}  height={100} className="w-[15rem] mx-auto"
-                        src={aadi} unoptimized/>
-                </a>
-                <div class="text-center mt-6">
-                    <h1 class="text-gray-900 text-xl font-bold mb-1">
-                    Aadi Patwardhan
-                    </h1>
-                    <a href="mailto:aadipatwardhan44@gmail.com"><i class="fi fi-rr-envelope"></i>  </a>
-                    <div class="text-gray-700 font-light mb-2 w-[20rem] mx-auto">
-                    Hello, my name is Aadi Patwardhan and I am an incoming junior at Dublin High School. I am honored to be a co- founder, a part of the marketing, designing, and social media managing team for this app. As a member of these roles, it is my responsibility to ensure an easy and fun way for our users to navigate the app and strive to draw attention to it. In my free time, I like to swim, play badminton, and videogames, and spend time with my family.
                     </div>
                 </div>
             </div>
@@ -81,6 +66,22 @@ const about = () => {
             <div class="flex-col text-center content-center">
                 <a href="#" className="mx-auto">
                     <Image width={100}  height={100} className="w-[15rem] mx-auto"
+                        src={aadi} unoptimized/>
+                </a>
+                <div class="text-center mt-6">
+                    <h1 class="text-gray-900 text-xl font-bold mb-1">
+                    Aadi Patwardhan
+                    </h1>
+                    <a href="mailto:aadipatwardhan44@gmail.com"><i class="fi fi-rr-envelope"></i>  </a>
+                    <div class="text-gray-700 font-light mb-2 w-[20rem] mx-auto">
+                    Hello, my name is Aadi Patwardhan and I am an incoming junior at Dublin High School. I am honored to be a co- founder, a part of the marketing, designing, and social media managing team for this app. As a member of these roles, it is my responsibility to ensure an easy and fun way for our users to navigate the app and strive to draw attention to it. In my free time, I like to swim, play badminton, and videogames, and spend time with my family.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex-col text-center content-center">
+                <a href="#" className="mx-auto">
+                    <Image width={100}  height={100} className="w-[15rem] mx-auto"
                         src={prajwal} unoptimized/>
                 </a>
                 <div class="text-center mt-6">
@@ -97,7 +98,7 @@ const about = () => {
             <div class="flex-col text-center content-center">
                 <a href="#" className="mx-auto">
                     <Image width={100}  height={100} className="w-[15rem] mx-auto"
-                        src="" unoptimized/>
+                        src="#" unoptimized/>
                 </a>
                 <div class="text-center mt-6">
                     <h1 class="text-gray-900 text-xl font-bold mb-1">

@@ -25,12 +25,12 @@ const Commentform = ({docname}) => {
         }
     };
     return (
-        <div className='w-[30rem] pt-5'>
+        <div className='mx-auto pt-5'>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="author" sm={4}>Name</label>
                 <br></br>
                 <input
-                    className='rounded-md p-2 mt-2 text-[black] border-2'
+                    className='rounded-md p-2 mt-2 text-[black] border-2 w-[15rem]'
                     type="text"
                     value={author}
                     onChange={(event) => setAuthor(event.target.value)}
@@ -41,7 +41,7 @@ const Commentform = ({docname}) => {
                 <label htmlFor="content" sm={4}>Message</label>
                 <br></br>
                 <textarea
-                    className='rounded-md p-2 text-[black] border-2'
+                    className='rounded-md p-2 text-[black] border-2 w-[15rem]'
                     id="content"
                     value={content}
                     placeholder="Start Typing..."

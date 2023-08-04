@@ -24,7 +24,7 @@ const cards = () => {
             Start viewing AP courses, rated and curated by students across the country:
             
         </h1>
-        <div className='grid grid-cols-3 grid-rows-2 w-[70rem] mx-auto mt-20'>
+        <div className='grid sm:grid-cols-3 grid-rows-2 w-[20rem] sm:w-[70rem] mx-auto mt-20'>
             {/*chemistry*/}
             <div class="w-[20rem] mb-5 border-2 rounded-md flex-col text-center content-center">
                 <div className='p-2 rounded-t-md bg-gradient-to-r from-[#3F2B96] to-[#9bb1eb] text-white'>

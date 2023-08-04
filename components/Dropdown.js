@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 export default function Dropdown() {
   return (
-    <Menu as="div" className="inline-block align-middle text-center pr-5 mt-[0.27rem]">
+    <Menu as="div" className="inline-block align-middle text-center pr-5 mt-[0.27rem] w-[rem]">
       <div>
         <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md font-black text-[#222] hover:text-[#505050]">
           AP Help <svg class="w-4 h-4 ml-0.1 mt-2.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -36,19 +36,6 @@ export default function Dropdown() {
                   )}
                 >
                   AP Exams
-                </a>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="../ap-help/questions"
-                  className={classNames(
-                    active ? 'bg-gray-100 text-[#222]' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  Questions
                 </a>
               )}
             </Menu.Item>

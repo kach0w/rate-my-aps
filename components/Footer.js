@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='mt-[8rem] pb-[2rem] w-[25rem] mx-auto bg-[#f3f3f3] text-slate-500 text-sm font-normal'>
+    <div className='sm:mt-[8rem] pb-[2rem] w-[12rem] sm:w-[25rem] mx-auto bg-[#f3f3f3] text-slate-500 text-sm font-normal'>
         <div class="float-left">
             <p>California</p>
         </div>

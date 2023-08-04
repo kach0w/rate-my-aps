@@ -12,14 +12,14 @@ const questions = () => {
 
   const handleSubmit = async(e) => {
     e.preventDefault();
-    // const response = await openai.createCompletion({
-    //   model: "text-davinci-003",
-    //   prompt: "Say this is a test",
-    //   max_tokens: 7,
-    //   temperature: 0,
-    // });
+    const response = await openai.createCompletion({
+      model: "text-davinci-003",
+      prompt: "Say this is a test",
+      max_tokens: 7,
+      temperature: 0,
+    });
 
-    // console.log(response)
+    console.log(response)
   }
 
   return (

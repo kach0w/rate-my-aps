@@ -30,21 +30,21 @@ export default function Login() {
   return (
     <div>
       <Navbar />
-      <Container className="text-center bg-[#657786] rounded-lg p-4 w-[30rem] mx-auto">
+      <Container className="text-center shadow-[0_1px_4px_rgba(0,0,0,0.30)] rounded-md p-4 w-[20rem] mt-5 sm:w-[30rem] mx-auto">
         <Row>
           <Col>
-            <h2 className='text-[white]'>Login</h2>
+            <h2 className='text-[24px] sm:text-[40px] pb-2 text-[#222]'>Login</h2>
           </Col>
         </Row>
         <Row className="text-[white]">
           <Col>
             <Form onSubmit={onSubmit}>
-            { error && <Alert color="danger">{error}</Alert>}
+            { error && <Alert className="text-[red] pb-2 sm:w-[20rem] mx-auto" color="danger">{error}</Alert>}
               <FormGroup row>
                 {/* <Label for="loginEmail" sm={4}>Email</Label> */}
                 <Col sm={8}>
                   <Input
-                    className='rounded-md p-2 text-[black]'
+                    className='rounded-md p-2 text-[black] shadow-[0_1px_4px_rgba(0,0,0,0.30)]'
                     type="email"
                     value={email}
                     onChange={(event) => setEmail(event.target.value)}
@@ -57,7 +57,7 @@ export default function Login() {
                 {/* <Label for="loginPassword" sm={4}>Password</Label> */}
                 <Col sm={8}>
                   <Input
-                    className='rounded-md p-2 text-[black]'
+                    className='rounded-md p-2 text-[black] shadow-[0_1px_4px_rgba(0,0,0,0.30)]'
                     type="password"
                     name="password"
                     value={password}
@@ -73,7 +73,7 @@ export default function Login() {
             </FormGroup>
             <FormGroup row className='pt-[5rem] text-slate-700'>
               <Col>
-              Don't have an account? <a className="hover:underline text-[white]" href="/sign_up">Sign Up</a>
+              Don't have an account? <a className="hover:underline text-[#3b82f6]" href="/sign_up">Sign Up</a>
               </Col>
             </FormGroup>
             </Form>

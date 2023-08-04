@@ -26,19 +26,19 @@ const Navbar = () => {
   
   return (
     <div className='text-[#222] bg-[#f3f3f3] text-center font-[Inter] flex space-x-6'>
-      <div className='w-[100vw] z-0 text-[1.5rem] text-white pt-5 h-15 align-middle z-3 font-serif'> 
-        <a href="../" className='inline-block align-middle float-left pl-5'>
-          <div className='w-[20rem] text-[#222] '>
-            <Image className='inline-block align-middle w-[3rem] h-[3rem]' src={logo}></Image> 
-            <h2 className='inline-block align-middle font-black text-[2rem]'>Rate My AP's</h2>
+      <div className='w-[100vw] z-0 text-[0.5rem] sm:text-[1.5rem] text-white pt-5 h-15 align-middle z-3 font-serif'> 
+        <a href="../" className='inline-block align-middle float-left sm:pl-5'>
+          <div className='sm:w-[20rem] text-[#222] '>
+            <Image className='inline-block align-middle w-3 sm:w-[3rem] sm:h-[3rem]' src={logo}></Image> 
+            <h2 className='inline-block align-middle font-black text-[0.7rem] sm:text-[2rem]'>Rate My AP's</h2>
           </div>
         </a>
-        <div className='float-right pr-20'>
+        <div className='float-right sm:pr-20'>
           <Dropdown />
           <a className='text-[#222] leading-sm inline-block align-middle font-black pt-[0.36rem] pr-5  hover:text-[#505050]' href="../about">About</a>
           <a className='text-[#222] leading-sm inline-block align-middle font-black pt-[0.36rem] pr-5  hover:text-[#505050]' href="../team">Team</a>
-          <button id="signin" className='text-white bg-slate-500 rounded-md p-2 leading-sm inline-block align-middle font-black pt-[0.36rem]  hover:text-slate-300'>        <Link href="../login">Login / Sign Up</Link></button>
-          <button id="signout" className='text-white bg-slate-500 rounded-md p-2 leading-sm align-middle font-black pt-[0.36rem] hidden  hover:text-slate-300' onClick={signOut}>Sign Out</button>
+          <button id="signin" className='text-[#3b82f6] mt-1 shadow-[0_1px_4px_rgba(0,0,0,0.30)] rounded-md p-2 leading-sm inline-block align-middle font-black pt-[0.36rem]  hover:text-slate-300'>        <Link href="../login">Login / Sign Up</Link></button>
+          <button id="signout" className='text-[#3b82f6] mt-1 shadow-[0_1px_4px_rgba(0,0,0,0.30)] rounded-md p-2 leading-sm align-middle font-black pt-[0.36rem] hidden  hover:text-slate-300' onClick={signOut}>Sign Out</button>
 
         </div>
       </div>
